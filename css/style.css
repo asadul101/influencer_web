@@ -1,0 +1,107 @@
+/* ---------- google fonts--------------- */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+/* common css part */
+.poppins-thin {
+    font-family: "Poppins", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    font-style: normal;
+}
+body{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+   box-sizing: border-box;
+}
+body{
+    width: 1440px;
+    margin: 0 auto;
+}
+ul,ol{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+}
+.display-flex{
+    display: flex;
+}
+.h-color{
+    color: #3A3A3A;
+}
+/* navbar part start  */
+.nav-container{
+    justify-content: space-between;
+    align-items: center;
+    padding-left: 120px;
+    padding-right: 120px;
+}
+#icons{
+    width: 36px;
+}
+#icons1{
+    width: 24px;
+}
+.nav-container h1{
+    font-weight: 700;
+    font-size: 1.5rem;
+}
+.href{
+    margin-right: 35px;
+    font-weight: 600;
+}
+/* influncer */
+.influncer{
+    justify-content: space-between;
+    align-items: center;
+    gap: 133px;
+}
+.influncer{
+    margin: 50px 132px 60px 120px;
+}
+.influncer-container{
+    width: 580px;
+}
+.influncer-text{
+    font-weight: 700;
+    font-size: 3.25rem;
+    margin-bottom: 16px;
+}
+.influncer-para{
+    font-weight: 600;
+    margin-top: 0px;
+    margin-bottom: 16px;
+}
+.btn-primary{
+    font-weight: 700;
+    color: #fff;
+    padding: 10px 20px 10px 20px;
+    background-color: #E02C6D;
+    text-align: center;
+    border: none;
+    border-radius: 41px;
+    transition: all linear 1s;
+}
+.btn-primary:hover{
+    background-color: orange;
+}
+#btn{
+    width: 24px;
+    margin-left: 8px;
+}
+.influncer-img{
+    background-image: url(/imges/Circle\ design.svg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+/* @midea quare  */
+@media screen and (max-width:576px) {
+    .nav-container,
+    .nav-main,
+    .influncer{
+        flex-direction: column;
+    }
+}
